@@ -61,7 +61,7 @@ $ curl  http://localhost:8080/?xiaoming=?
 $ curl  http://localhost:8080/?trump=?
 16340002
 
-$ curl  http://localhost:8080/?nobody=? ### 姓名不存在
+$ curl  http://localhost:8080/?nobody=?  ### 姓名不存在
 This name does not exist!
 ```
 ---
@@ -114,7 +114,7 @@ Waiting:        1   10   5.5      9      28
 Total:          4   16   5.3     15      32
 
 Percentage of the requests served within a certain time (ms)
-  50%     15                                          ###50%的请求都在7778Ms内完成
+  50%     15                                          ###50%的请求都在15ms内完成
   66%     18
   75%     20
   80%     21
